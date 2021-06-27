@@ -1,0 +1,9 @@
+instructor:
+  name: ali 
+  department: aws 
+  job: cloud engineer
+students: 
+  - name: hamit
+  - ahmet
+  - deniz
+  - serkan
