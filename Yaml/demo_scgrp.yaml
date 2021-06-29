@@ -14,3 +14,21 @@ Resources:
       Tags:
         - Key: Name 
           Value: ali-cf-stack-instance
+
+
+
+Description: |
+  This template launch an EC2 that enables SSH 
+  
+Resources:
+  MyEc21:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0ab4d1e9cf9a1215a
+      InstanceType: t2.micro
+      KeyName: dev
+      SecurityGroups:
+        - demo_scgrp
+      Tags:
+        - Key: Name1
+          Value: ali-cf-stack-instance
