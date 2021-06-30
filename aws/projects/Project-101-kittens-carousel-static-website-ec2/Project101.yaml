@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: |
+  AWS CloudFormation Template EC2InstanceWithSecurityGroupSample for Clarusway with Apache, 
+  AWS Linux2 and EC2 Name Tag that should be as a "Web Server of StackName".
+  
+Resources:
+  Project101:
+    Type: AWS::EC2::Instance
+    Properties:
+      
+      ImageId: ami-0ab4d1e9cf9a1215a
+      InstanceType: t2.micro
+      KeyName: dev  
+      SecurityGroups: 
+        - project101
+      Tags:
+        - Key: Name
+          Value: Web-Server-of-StackName
+          
