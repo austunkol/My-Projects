@@ -13,7 +13,7 @@ Resources:
       InstanceType: t2.micro
       KeyName: dev  
       SecurityGroups: 
-        - project101
+        - launch-wizard-3
       Tags:
         - Key: Name
           Value: Web-Server-of-StackName
