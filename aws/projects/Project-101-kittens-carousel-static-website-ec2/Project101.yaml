@@ -1,11 +1,11 @@
-AWSTemplateFormatVersion: 2010-09-09
+AWSTemplateFormatVersion: 2010-09-09    #cfn+enter
 
-Description: |
-  AWS CloudFormation Template EC2InstanceWithSecurityGroupSample for Clarusway with Apache, 
-  AWS Linux2 and EC2 Name Tag that should be as a "Web Server of StackName".
+Description: |                          # | or >
+  This CloudFormation Template was written for running Kittens Carousel Static Website on EC2. Kittens Carousel Static Website will be deployed on Amazon Linux 2 (ami-026dea5602e368e96) EC2 Instance with custom security group which allows http connections on port 80 and ssh port 22 from anywhere. 
+  Kittens Carousel Static Website is downloaded from my Public Github repository, then deployed on Apache Web Server.
   
-Resources:
-  Project101:
+Resources:                              #ec2-instance
+  Project101:                           #security group
     Type: AWS::EC2::Instance
     Properties:
       
@@ -17,4 +17,4 @@ Resources:
       Tags:
         - Key: Name
           Value: Web-Server-of-StackName
-          
+
