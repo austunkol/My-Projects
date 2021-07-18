@@ -1,10 +1,10 @@
-# Hands-on Flask-03 : Handling Routes and Templates with Flask Web Application and If and For Structure
+# Flask-03 : Handling Routes and Templates with Flask Web Application and If and For Structure
 
-Purpose of the this hands-on training is to give the students introductory knowledge of how to handle routes and use html templates within a Flask web application on Amazon Linux 2 EC2 instance. 
+Purpose of the this project is to give the introductory knowledge of how to handle routes and use html templates within a Flask web application on Amazon Linux 2 EC2 instance. 
 
 ## Learning Outcomes
 
-At the end of the hands-on training, students will be able to;
+At the end of the hands-on training, we will be able to;
 
 - install Python and Flask framework on Amazon Linux 2 EC2 instance
 
