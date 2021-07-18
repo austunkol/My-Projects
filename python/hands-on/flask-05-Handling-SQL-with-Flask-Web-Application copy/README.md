@@ -6,7 +6,7 @@ Purpose of the this project is to give the introductory knowledge of how to hand
 
 ## Learning Outcomes
 
-At the end of the this hands-on training, students will be able to;
+At the end of the this hands-on training, we will be able to;
 
 - install Python and Flask framework on Amazon Linux 2 EC2 instance.
 
