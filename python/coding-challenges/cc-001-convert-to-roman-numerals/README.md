@@ -6,7 +6,7 @@ Purpose of the this coding challenge is to write a program that converts the giv
 
 ## Learning Outcomes
 
-At the end of the this coding challenge, students will be able to;
+At the end of the this coding challenge, we will be able to;
 
 - analyze a problem, identify and apply programming knowledge for appropriate solution.
 
