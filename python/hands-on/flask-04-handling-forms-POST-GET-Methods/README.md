@@ -1,12 +1,12 @@
-# Hands-on Flask-04: Using Get-Post Methods
+# Flask-04: Using Get-Post Methods
 
-Purpose of the this hands-on training is to give the students introductory knowledge of how to handle forms.
+Purpose of the this project training is to give the introductory knowledge of how to handle forms.
 
 ![HTTP Methods in Flask](./http-methods-flask.png)
 
 ## Learning Outcomes
 
-At the end of the this hands-on training, students will be able to;
+At the end of the this hands-on training, we will be able to;
 
 - install Python and Flask framework on Amazon Linux 2 EC2 instance.
 
