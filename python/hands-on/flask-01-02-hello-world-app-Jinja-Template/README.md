@@ -4,7 +4,7 @@ Purpose of the this project is to give the quick introductory knowledge of how t
 
 ## Learning Outcomes
 
-At the end of the this hands-on training, students will be able to;
+At the end of the this hands-on training, we will be able to;
 
 - understand client-server software architecture.
 
